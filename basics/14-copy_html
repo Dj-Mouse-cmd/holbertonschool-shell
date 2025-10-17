@@ -1,0 +1,8 @@
+#!/bin/bash
+for file in *.html; do
+[ ! -f "$file" ] continue
+
+if [ ! -f "../$file"] [ "$file" -nt "../$file" ]; Then
+cp "$file" ../
+fi
+done
